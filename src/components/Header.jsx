@@ -9,7 +9,7 @@ export default function Header({
   //State Derivado
   const isEmpty = useMemo(() => cart.length === 0, [cart]);
   const totalPay = useMemo(
-    () => cart.reduce((total, item) => total + item.price * item.quantity, 0),
+    () => cart.reduce((total, item) => total + (item.price * item.quantity), 0),
     [cart]
   );
 

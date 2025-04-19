@@ -1,10 +1,6 @@
 export default function Guitar({ guitar, addToCart }) {
   const { id, name, image, description, price } = guitar;
 
-  const handleClick = (guitar) => {
-    console.log('Guitar clicked');
-    console.table(guitar);
-  };
 
   return (
     <>
