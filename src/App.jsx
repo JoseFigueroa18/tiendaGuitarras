@@ -83,6 +83,10 @@ function App() {
     setCart(updatedCart)
   }
 
+  function ereaseCart () {
+    setCart([])
+  }
+
   return (
     <>
       <Header 
@@ -90,6 +94,7 @@ function App() {
         removeFromCart = {removeFromCart}
         increaseQuantity = {increaseQuantity}
         reduceQuantity = {reduceQuantity}
+        ereaseCart = {ereaseCart}
       />
       <main className='container-xl mt-5'>
         <h2 className='text-center'>Nuestra Colección</h2>
