@@ -1,8 +1,8 @@
 ## Estado del despliegue
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/238f45aa-fffb-4198-bd63-b234e3039c52/deploy-status)](https://app.netlify.com/sites/guitarrastiend/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6fe4a69b-c98e-4450-9196-5a923d064f1b/deploy-status)](https://app.netlify.com/sites/guitartienda/deploys)
 
-Este proyecto se despliega automáticamente con Netlify. Puedes ver el historial de despliegues haciendo clic en el badge.
+Este proyecto se despliega automáticamente con Netlify.
 
 
 # React + Vite
